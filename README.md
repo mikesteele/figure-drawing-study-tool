@@ -1,7 +1,7 @@
 # figure-drawing-study-tool
 A clone of line-of-action.com 
 
-## Install
+## Running
 
 ```
 yarn 
