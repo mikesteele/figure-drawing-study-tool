@@ -39,8 +39,10 @@ export default function App() {
     })
   });
   const fiveMinutePoses = [
-    'https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/77035132_146186580102311_1773473909896901578_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=111&_nc_ohc=nXQcV8q5MoAAX-OdVWn&oh=2e5910c045b6f6ee172b29fba99d8b7c&oe=5E9D92A8',
-    'https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/72754352_161772908246109_48024568836202298_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=109&_nc_ohc=qqa7yMm6f5cAX9yd3yj&oh=be13a50a0023eb9bdead5369972d50b4&oe=5EA226FD'
+    'https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/72785460_860803181056306_2359251531681525506_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=110&_nc_ohc=d3_JeZg9j88AX8Aq6qV&oh=b8620a4f0e7152eca413d4d5d2cc0ecc&oe=5EE5E9CC',
+    'https://instagram.fbed1-2.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/80341921_2552719458341690_8522679405228009168_n.jpg?_nc_ht=instagram.fbed1-2.fna.fbcdn.net&_nc_cat=102&_nc_ohc=gBmjZuKTgHsAX9rVASV&oh=d3f00fcf01cf2faa78bc9fe7be871656&oe=5EE7741A',
+    'https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/70126669_167556634390568_4901538217325174711_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=8YMHP0m6RooAX-rPGtr&oh=377a271ae9737ab661a1664867aa9c7c&oe=5EE44A85',
+    'https://instagram.fbed1-2.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/67897062_181741866186459_5145468789956321187_n.jpg?_nc_ht=instagram.fbed1-2.fna.fbcdn.net&_nc_cat=103&_nc_ohc=sPI9YFH8LVkAX-RfBeg&oh=674ca85e2bb02954113d78fb70c56781&oe=5EE77F14'
   ];
   fiveMinutePoses.forEach(p => {
     poses.push({
@@ -49,7 +51,8 @@ export default function App() {
     })
   });
   const fifteenMinutePoses = [
-    'https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/74535959_2384011265197390_5538348833372243780_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=110&_nc_ohc=tW7Hm30gyqwAX8X0VUN&oh=3602b3071c27f31f72686a89e16c8147&oe=5EA54E2E'
+    'https://instagram.fbed1-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/88251607_883998095355469_7692927271904665186_n.jpg?_nc_ht=instagram.fbed1-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=ngp2ilCw6F4AX9KS_BY&oh=3f17a66ef1488172f7b12637ed229ed7&oe=5EE47A00',
+    'https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/88132407_263918017928706_3202643818289898708_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=106&_nc_ohc=3KvOS7_NKboAX9tNXgO&oh=644baa1d54ec75721488e0eb5416503f&oe=5EE69B3B'
   ];
   fifteenMinutePoses.forEach(p => {
     poses.push({
