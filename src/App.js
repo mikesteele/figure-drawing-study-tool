@@ -10,54 +10,29 @@ export default function App() {
   poses.push({
     text: "Drawing from Reference",
     noCountdown: true,
-    poseLength: 30 * SECOND
-  });
-  const thirtySecondPoses = [
-    'http://www.artmodeltips.com/wp-content/uploads/2014/02/33a3d6cfe81452c27bc89aa5fcd241a1.jpg',
-    'http://www.artmodeltips.com/wp-content/uploads/2014/02/575167660ee552ce3474e71fbec03655.jpg',
-    'http://www.artmodeltips.com/wp-content/uploads/2014/02/05d853c2050aecec97513ee36cedf8ff.jpg',
-    'http://www.artmodeltips.com/wp-content/uploads/2014/02/bdb7a1f2f17cb98d52a4cdf2c238d172.jpg',
-    'http://www.artmodeltips.com/wp-content/uploads/2014/02/227bc95529d23d762fc32bee2d79571e.jpg'
-  ];
-  thirtySecondPoses.forEach(p => {
-    poses.push({
-      src: p,
-      poseLength: 30 * SECOND
-    })
+    poseLength: 1 * SECOND
   });
   const oneMinutePoses = [
-    'http://www.artmodeltips.com/wp-content/uploads/2014/02/39ef7103753e37aabcc112d022588a79.jpg',
-    'http://www.artmodeltips.com/wp-content/uploads/2014/02/68e5d2c75e79d7f4675af7fa04522c76.jpg',
-    'http://www.artmodeltips.com/wp-content/uploads/2014/02/916.jpg',
-    'http://www.artmodeltips.com/wp-content/uploads/2014/02/1314.jpg',
-    'http://www.artmodeltips.com/wp-content/uploads/2014/02/1016.jpg'
+    'https://www.artnet.com/WebServices/images/ll00274lldeBFJFgOjECfDrCWvaHBOctZnE/irving-penn-dancer-series-(alexandra-beller,-new-york).jpg',
+    'https://media.mutualart.com/Images/2015_02/01/15/150954453/b43c430b-8041-49d2-9ac2-f3aec1114876.Jpeg',
+    'https://images.squarespace-cdn.com/content/v1/58cfe9e91b10e37dbd7bc584/1490993215455-9S4UODZM032BTLXBF5O8/ke17ZwdGBToddI8pDm48kMP7xigjj5460vMkFpApG-R7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UflvpuMvIvQ6gDF_GpzC02MRjBaVyhKbrInBKp-F4p4xQI1NuyNaxRHMfXcqRneseQ/nudes.jpg',
+    'https://www.christies.com/img/LotImages/2012/NYR/2012_NYR_02586_0110_000(irving_penn_alexandra_beller_new_york_december_1999).jpg',
+    'https://d2mpxrrcad19ou.cloudfront.net/item_images/1130441/11549567_fullsize.jpg'
   ];
   oneMinutePoses.forEach(p => {
     poses.push({
       src: p,
-      poseLength: MINUTE
+      poseLength: MINUTE + 30 * SECOND,
     })
   });
   const fiveMinutePoses = [
-    'https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/72785460_860803181056306_2359251531681525506_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=110&_nc_ohc=d3_JeZg9j88AX8Aq6qV&oh=b8620a4f0e7152eca413d4d5d2cc0ecc&oe=5EE5E9CC',
-    'https://instagram.fbed1-2.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/80341921_2552719458341690_8522679405228009168_n.jpg?_nc_ht=instagram.fbed1-2.fna.fbcdn.net&_nc_cat=102&_nc_ohc=gBmjZuKTgHsAX9rVASV&oh=d3f00fcf01cf2faa78bc9fe7be871656&oe=5EE7741A',
-    'https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/70126669_167556634390568_4901538217325174711_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=8YMHP0m6RooAX-rPGtr&oh=377a271ae9737ab661a1664867aa9c7c&oe=5EE44A85',
-    'https://instagram.fbed1-2.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/67897062_181741866186459_5145468789956321187_n.jpg?_nc_ht=instagram.fbed1-2.fna.fbcdn.net&_nc_cat=103&_nc_ohc=sPI9YFH8LVkAX-RfBeg&oh=674ca85e2bb02954113d78fb70c56781&oe=5EE77F14'
+    'https://image.invaluable.com/housePhotos/BlackRiver/51/654551/H21714-L184269541.jpg',
+    'https://i.pinimg.com/originals/ac/f8/35/acf835242e7c2e1985a079488ab65177.jpg'
   ];
   fiveMinutePoses.forEach(p => {
     poses.push({
       src: p,
-      poseLength: 5 * MINUTE
-    })
-  });
-  const fifteenMinutePoses = [
-    'https://instagram.fbed1-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/88251607_883998095355469_7692927271904665186_n.jpg?_nc_ht=instagram.fbed1-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=ngp2ilCw6F4AX9KS_BY&oh=3f17a66ef1488172f7b12637ed229ed7&oe=5EE47A00',
-    'https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/88132407_263918017928706_3202643818289898708_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=106&_nc_ohc=3KvOS7_NKboAX9tNXgO&oh=644baa1d54ec75721488e0eb5416503f&oe=5EE69B3B'
-  ];
-  fifteenMinutePoses.forEach(p => {
-    poses.push({
-      src: p,
-      poseLength: 15 * MINUTE
+      poseLength: 5 * MINUTE,
     })
   });
   return (
