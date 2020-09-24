@@ -8,16 +8,18 @@ const MINUTE = 60 * SECOND;
 export default function App() {
   const poses = [];
   poses.push({
-    text: "Drawing from Reference",
+    text: "Imogen Cunningham",
     noCountdown: true,
     poseLength: 1 * SECOND
   });
+
+  /////
+
   const oneMinutePoses = [
-    'https://images.squarespace-cdn.com/content/v1/58cfe9e91b10e37dbd7bc584/1492106334987-8J4N6FJMSOPNMKDALM5J/ke17ZwdGBToddI8pDm48kFv3LHazbGYnNN3Vi_5sr8Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYLS5D5J7_WHFZltObcjbn9lcjbAp0kam0Iruh3pp3NmA-5z3kre7kcTBLQSsQRGFA/nude_no_18.jpg',
-    'https://www.artic.edu/iiif/2/578e6ba1-7d84-17bd-2132-47d8d36b9a4f/full/1200,/0/default.jpg?w=1200&h=800&fit=crop',
-    'https://images.squarespace-cdn.com/content/v1/58cfe9e91b10e37dbd7bc584/1490993169437-1LCUYN1YAAZSRYA8LUA0/ke17ZwdGBToddI8pDm48kHBaUNS0fNiFRgiTHksHhu97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQeuZXIG7TjYe36shGZgAh__IQ3dTkyMTKCk1ku1vH23hDu1IQrvWcV79sMhlbVyNQ/large_woman_looking_down_new_york_1994.jpg',
-    'https://collectionapi.metmuseum.org/api/collection/v1/iiif/285064/605228/restricted',
-    'https://images.squarespace-cdn.com/content/v1/58cfe9e91b10e37dbd7bc584/1490993188850-YY9F1V4DW1CEZH975RKV/ke17ZwdGBToddI8pDm48kI4tu_8ycCi4k4Rf-JEDEC97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UabjZDsffLhBimJM-Q3J7swnisjKD2oWBwbYXcVDNCPyNKOigyfB8BfAL6B2Stgizg/large_woman_nursel_new_york_1997_platinum.jpg?format=1000w',
+    'https://artlogic-res.cloudinary.com/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/ictrust/images/view/57dea38a03d9522694b056dcbead9db1/imogencunninghamtrust-spiral-back-1930.jpg',
+    'https://artlogic-res.cloudinary.com/w_1200,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/ictrust/images/view/892648c30bdcdacd190a370056e4fbe8/imogencunninghamtrust-john-bovingdon-3-1929.jpg',
+    'https://artlogic-res.cloudinary.com/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/ictrust/images/view/7cb71b87b013049b6bdff301bbbab139/imogencunninghamtrust-roi-on-the-dipsea-trail-1918.jpg',
+    'https://d16kd6gzalkogb.cloudfront.net/magazine_images/Imogen-Cunningham-Nude-1956.jpg',
   ];
   oneMinutePoses.forEach(p => {
     poses.push({
@@ -26,11 +28,10 @@ export default function App() {
     })
   });
   const twoMinutePoses = [
-    'https://images.squarespace-cdn.com/content/v1/58cfe9e91b10e37dbd7bc584/1490993215455-9S4UODZM032BTLXBF5O8/ke17ZwdGBToddI8pDm48kMP7xigjj5460vMkFpApG-R7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UflvpuMvIvQ6gDF_GpzC02MRjBaVyhKbrInBKp-F4p4xQI1NuyNaxRHMfXcqRneseQ/nudes.jpg?format=2500w',
-    'https://d32dm0rphc51dk.cloudfront.net/ND3cp0ieMCDP9IT-OAcoSg/large.jpg',
-    'https://live.staticflickr.com/1525/26347902455_d2e58f261b_b.jpg',
-    'https://hammer.ucla.edu/sites/default/files/migrated-assets/media/Blog/2016/March/Kate_Lawson/2015.7.1.jpg', // x
-    'https://diotimainthegallery.files.wordpress.com/2016/03/wp_20160308_16_00_28_pro.jpg',
+    'https://artlogic-res.cloudinary.com/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/ictrust/images/view/35760d3ea2055674da7cd8348d5ca02c/imogencunninghamtrust-on-your-head-early-1930s.jpg',
+    'https://artlogic-res.cloudinary.com/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/ictrust/images/view/18f912e6bac492cd269870e8f5e86f85/imogencunninghamtrust-john-bovingdon-2-1929.jpg',
+    'https://artlogic-res.cloudinary.com/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/ictrust/images/view/52674f0bfa8af0f0ffc538f61d4dafe5/imogencunninghamtrust-martha-graham-36-1931.jpg',
+    'https://artlogic-res.cloudinary.com/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/ictrust/images/view/fce95aeb62eb1edd813effb798c90e0b/imogencunninghamtrust-nude-1939.jpg',
   ];
   twoMinutePoses.forEach(p => {
     poses.push({
@@ -39,8 +40,8 @@ export default function App() {
     })
   });
   const fiveMinutePoses = [
-    'https://i.pinimg.com/564x/b8/09/80/b809807004cbbe41367fce793945944a.jpg',
-    'https://i.pinimg.com/originals/cf/42/b6/cf42b6f519a2c34b1feba964b4f71777.jpg',
+    'https://artlogic-res.cloudinary.com/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/ictrust/images/view/16be0da70ee21d3a2a86c7c647a991ee/imogencunninghamtrust-roi-on-the-dipsea-trail-3-1918.jpg',
+    'https://d16kd6gzalkogb.cloudfront.net/magazine_images/Imogen-Cunningham-On-Oregon-Beach-1967.jpg',
   ];
   fiveMinutePoses.forEach(p => {
     poses.push({
@@ -49,8 +50,8 @@ export default function App() {
     })
   });
   const tenMinutePoses = [
-    'https://loeildelaphotographie.com/wp-content/uploads/2019/04/04.jpg',
-    'https://d32dm0rphc51dk.cloudfront.net/dg6QA62eV8X1xsFWWvC3dg/large.jpg',
+    'https://verocskadotde.files.wordpress.com/2016/02/tumblr_ml9aaufdja1r5ehtlo1_1280.jpg?w=676',
+    'https://artlogic-res.cloudinary.com/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/ictrust/images/view/2ee23fbfe3b89c3fce5f8624a14c1222/imogencunninghamtrust-phoenix-in-the-mirror-1969.jpg',
   ];
   tenMinutePoses.forEach(p => {
     poses.push({
